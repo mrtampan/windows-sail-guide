@@ -14,3 +14,8 @@ Problem development windows in wsl. because modify code with [remote development
 
 - open wsl ubuntu -> symlink location windows to wsl with command `ln -s \mnt\c\your_project` . example location "\mnt\c\mrtampan-pc\laravel10" 
 - run command `./vendor/bin/sail up`
+
+
+## About repository
+
+Only My research. solving slow development in windows

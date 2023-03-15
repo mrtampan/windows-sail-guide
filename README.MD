@@ -9,5 +9,8 @@ Problem development windows in wsl. because modify code with [remote development
 - Install Docker and Start Docker
 - create project laravel and install laravel sail on project
 - open docker desktop -> settings -> resources -> wsl integration -> choose your ubuntu -> apply and restart
+
+![alt text](https://github.com/mrtampan/windows-sail-guide/blob/main/wslconfig.png?raw=true)
+
 - open wsl ubuntu -> `ln -s \mnt\c\your_project` . example location "\mnt\c\mrtampan-pc\laravel10" 
 - run command `./vendor/bin/sail up`

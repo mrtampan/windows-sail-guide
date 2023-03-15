@@ -12,5 +12,5 @@ Problem development windows in wsl. because modify code with [remote development
 
 ![alt text](https://github.com/mrtampan/windows-sail-guide/blob/main/wslconfig.png?raw=true)
 
-- open wsl ubuntu -> `ln -s \mnt\c\your_project` . example location "\mnt\c\mrtampan-pc\laravel10" 
+- open wsl ubuntu -> symlink location windows to wsl with command `ln -s \mnt\c\your_project` . example location "\mnt\c\mrtampan-pc\laravel10" 
 - run command `./vendor/bin/sail up`
